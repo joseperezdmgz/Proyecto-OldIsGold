@@ -1,0 +1,48 @@
+.Categorias-container {
+  background-image: url("./fondo-movil.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  z-index: 100;
+}
+
+.Categorias-container img {
+  height: 25px;
+}
+
+.Categorias-container p {
+  font-family: sans-serif;
+  color: #ffffff;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 6.5pt;
+  width: 64px;
+}
+
+.Categorias-container div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img[alt="flecha1"] {
+  width: 10px;
+  position: relative;
+  top: 50px;
+  left: 5%;
+}
+img[alt="flecha2"] {
+  width: 10px;
+  position: relative;
+  top: 50px;
+  left: 90%;
+}

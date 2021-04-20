@@ -1,0 +1,27 @@
+.App {
+  background-color: #ededed;
+  font-family: sans-serif;
+}
+.App > div:last-of-type {
+  margin-bottom: 65px;
+}
+.App-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.App-img {
+  background-image: url("./old-is-gold-horizontal.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #202020;
+  height: 50px;
+  padding: 20px;
+}
+
+.mensaje-error {
+  color: red;
+  font-weight: bold;
+  padding: 20px;
+}

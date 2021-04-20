@@ -1,0 +1,140 @@
+.ArticuloPorId {
+  font-family: sans-serif;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-bottom: 50px;
+}
+.ArticuloPorId div.fechaTitulo {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: center;
+}
+.ArticuloPorId div.fechaTitulo p {
+  font-size: 10pt;
+  color: gray;
+}
+
+img[alt="visto"] {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.ArticuloPorId .fechaTitulo p {
+  width: max-content;
+}
+.ArticuloPorId .fechaTitulo h1 {
+  font-size: 19pt;
+  /* width: max-content; */
+  /* width: 80%; */
+  overflow: hidden;
+  max-height: 40pt;
+  text-overflow: ellipsis;
+}
+
+.ArticuloPorId-datos-usuario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 0px;
+  margin-top: 5px;
+}
+
+.ArticuloPorId-datos-usuario2 {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.ArticuloPorId-user-img {
+  border-radius: 100%;
+  width: 50px;
+}
+
+/* .ArticuloPorId-img {
+  max-width: 300px;
+  max-height: 290px;
+} */
+.ArticuloPorId-datos {
+  margin-top: 15px;
+  justify-content: space-around;
+  display: flex;
+  padding: 20px;
+}
+.ArticuloPorId-datos p {
+  color: #f8d334;
+  font-size: 20pt;
+  font-weight: bold;
+}
+.ArticuloPorId-datos img {
+  height: 30px;
+}
+.ArticuloPorId-contenedor {
+  margin: auto;
+  border: 1px solid;
+  background-color: white;
+  height: 240px;
+  width: 320px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% auto;
+}
+
+.ArticuloPorId-buttons button {
+  border-radius: 5px;
+  width: 300px;
+  border: none;
+  font-size: 18px;
+  height: 50px;
+  margin: 5px;
+}
+
+.ArticuloPorId-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.ArticuloPorId-button-activate {
+  background-color: #f8d334;
+}
+.ArticuloPorId-button-no-activate {
+  background-color: white;
+  color: #f89334;
+  font-weight: bold;
+}
+
+img[alt="estrella"] {
+  height: 20px;
+  padding: 1px;
+}
+
+img[alt="localizacion"] {
+  margin-right: 5px;
+  width: 18px;
+  height: auto;
+}
+
+#ArticuloPorId-localizacion {
+  font-size: 12pt;
+  color: gray;
+  font-weight: lighter;
+}
+
+.ArticuloPorId-descripcion h2,
+.ArticuloPorId-descripcion p {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.ArticuloPorId-respuesta {
+  text-align: center;
+  margin: 10px;
+  color: red;
+}

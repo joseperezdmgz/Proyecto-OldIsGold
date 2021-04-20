@@ -1,0 +1,19 @@
+.AllChatsRoom-h2 {
+  margin-left: 10px;
+}
+.AllChatsRoom-cabecera {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  align-items: center;
+}
+
+.AllChatsRoom-imagen-perfil {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}

@@ -1,0 +1,47 @@
+.Chat-div {
+  margin-bottom: 150px;
+  font-family: sans-serif;
+}
+.Chat-h2 {
+  margin-left: 10px;
+}
+.Chat {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+div.Chat-img {
+  background-color: white;
+  height: 50px;
+  width: 68px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 2px;
+  background-size: 100% auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
+
+.Chat-info {
+  padding: 10px;
+}
+.Chat-info p {
+  text-align: left;
+  color: rgb(59, 59, 59);
+}
+
+.Chat-info h3 {
+  font-size: 14px;
+}
+
+.Chat-usuario {
+  font-size: 12px;
+  color: gray;
+}
+
+.Chat-p-usuario {
+  color: gray;
+}
